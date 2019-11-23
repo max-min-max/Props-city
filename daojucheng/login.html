@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <title>Document</title>
+        <script src = "js/ajax.js"></script>
+        <script src = "js/require.js" defer async = "true" data-main= "js/login.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class = "panel panel-primary" id = "login" style="width: 300px;margin : 100px auto;">
+                <div class="panel-heading">
+                    登录
+                </div>
+                <div class="panel-body">
+                    <div class = "form-group">
+                        <label for="username">用户名：</label>
+                        <input type="text" id = "input1"class="form-control input-lg" name = "username" placeholder="用户名">
+                    </div>
+                    <div class = "form-group">
+                        <label for="password">密码：</label>
+                        <input type="text" id="input2" class="form-control input-lg" name = "password" placeholder="密码：">
+                    </div>
+                    <div class="alert  alert-danger" role="alert" id = "alert_info" style="padding: 2px; text-align: center;display: none;">
+                        警告信息
+                    </div>
+                    <a href="register.html">马上注册</a>
+                    <button class = "button button-3d button-primary button-rounded btn btn-primary pull-right" id = "btn1">登录</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

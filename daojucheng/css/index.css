@@ -1,0 +1,1616 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  background-color: #acb1bb; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+em {
+  font-style: normal; }
+
+img {
+  border: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#login {
+  display: none;
+  width: 618px;
+  height: 364px;
+  position: fixed;
+  z-index: 10;
+  top: 10px;
+  margin-left: 400px;
+  background-color: white; }
+  #login .a1 {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px; }
+  #login .login1 {
+    height: 120px;
+    margin-top: 40px;
+    text-align: center; }
+    #login .login1 .login_div1 {
+      height: 26px;
+      margin-bottom: 16px;
+      font-size: 22px; }
+    #login .login1 .login_div2 {
+      height: 50px;
+      margin-bottom: 26px;
+      font-size: 16px;
+      line-height: 26px; }
+      #login .login1 .login_div2 a {
+        color: blue; }
+      #login .login1 .login_div2 a:hover {
+        text-decoration: underline; }
+  #login .login_2 {
+    width: 300px;
+    height: 160px;
+    margin: 0 auto;
+    position: relative; }
+    #login .login_2 span {
+      position: absolute;
+      top: 10px;
+      left: 90px; }
+      #login .login_2 span img {
+        border: 5px solid #acb1bb;
+        width: 111px;
+        height: 111px; }
+  #login ul {
+    position: absolute;
+    bottom: 0;
+    width: 618px;
+    height: 40px; }
+    #login ul li {
+      position: absolute;
+      height: 30px;
+      right: 0;
+      top: 10px; }
+      #login ul li a, #login ul li i {
+        font-size: 14px;
+        float: left;
+        margin: 5px; }
+      #login ul li a:hover {
+        text-decoration: underline; }
+  #login form {
+    width: 300px;
+    height: 160px;
+    margin: 10px auto; }
+    #login form input, #login form button {
+      display: block;
+      margin: 10px auto 0;
+      width: 250px;
+      height: 40px; }
+    #login form button {
+      background-color: yellowgreen; }
+  #login .show {
+    display: none; }
+  #login .hide {
+    display: none; }
+
+/*!
+    header
+*/
+#header {
+  height: 30px;
+  width: 1190px;
+  margin: 0 auto;
+  background-color: #acb1bb;
+  line-height: 30px; }
+  #header #l-header {
+    float: left;
+    font-size: 12px; }
+    #header #l-header a {
+      color: black; }
+    #header #l-header i {
+      margin: 0 10px; }
+  #header #r-header {
+    float: right; }
+    #header #r-header div {
+      float: left;
+      font-size: 12px; }
+      #header #r-header div a {
+        color: black; }
+    #header #r-header .div5 {
+      width: 72px;
+      height: 21px;
+      line-height: 21px;
+      margin-top: 2px;
+      margin-right: 5px;
+      padding-left: 8px;
+      border: 1px solid black;
+      background-color: white;
+      position: relative; }
+      #header #r-header .div5 table {
+        display: none;
+        width: 700px;
+        height: 266px;
+        border: 5px solid gray;
+        margin: 0 auto;
+        position: absolute;
+        top: 30px;
+        right: 80px;
+        z-index: 100000;
+        background-color: white; }
+      #header #r-header .div5 table tr td {
+        width: 100px;
+        height: 30px;
+        border: 1px solid gray;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center; }
+      #header #r-header .div5 .td2 {
+        width: 300px; }
+      #header #r-header .div5 .td3 {
+        width: 200px; }
+      #header #r-header .div5 .tr1 {
+        height: 120px; }
+      #header #r-header .div5 .tr2 {
+        height: 90px; }
+      #header #r-header .div5 .tr3 {
+        height: 90px; }
+    #header #r-header i {
+      float: left;
+      margin: 0 10px; }
+    #header #r-header a:hover {
+      color: #f55656;
+      text-decoration: underline; }
+
+/*!
+    search 
+ */
+#search {
+  background-color: white;
+  height: 106px; }
+  #search #wrap {
+    width: 1190px;
+    height: 106px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 5px; }
+    #search #wrap #logo {
+      background: url(../img/logo-seo.png);
+      width: 320px;
+      height: 65px;
+      display: block;
+      margin-top: 5px; }
+    #search #wrap #s_bar {
+      position: absolute;
+      top: 10px;
+      left: 430px;
+      float: left;
+      width: 490px;
+      height: 40px;
+      border: 2px solid red; }
+      #search #wrap #s_bar #text {
+        width: 450px;
+        height: 34px;
+        border-right: 0; }
+        #search #wrap #s_bar #text #s_menu {
+          width: 116px;
+          height: 40px;
+          float: left;
+          border-right: 1px solid #efefef; }
+          #search #wrap #s_bar #text #s_menu #game {
+            float: left;
+            display: block;
+            width: 116px;
+            height: 36px;
+            border-right: 1px solid #efefef;
+            border-bottom: 3px solid #efefef;
+            text-align: center;
+            line-height: 40px;
+            color: #333; }
+            #search #wrap #s_bar #text #s_menu #game #i_sp {
+              float: right;
+              width: 10px;
+              height: 6px;
+              overflow: hidden;
+              background-position: 0 -25px;
+              margin: 15px 10px 0 0;
+              display: inline; }
+          #search #wrap #s_bar #text #s_menu #js_wrapper {
+            display: none;
+            position: absolute;
+            z-index: 1;
+            top: 36px;
+            left: 0;
+            border: 1px solid #e5e5e5;
+            width: 395px;
+            padding: 0 10px;
+            background: #fff;
+            overflow: hidden;
+            margin-top: 5px; }
+            #search #wrap #s_bar #text #s_menu #js_wrapper dl {
+              border-top: 1px solid #e5e5e5;
+              padding: 10px;
+              margin-top: -1px;
+              line-height: 26px;
+              overflow: hidden; }
+              #search #wrap #s_bar #text #s_menu #js_wrapper dl dt {
+                font-weight: 800;
+                float: left;
+                font-size: 12px; }
+              #search #wrap #s_bar #text #s_menu #js_wrapper dl dd {
+                margin-left: 70px; }
+                #search #wrap #s_bar #text #s_menu #js_wrapper dl dd a, #search #wrap #s_bar #text #s_menu #js_wrapper dl dd i {
+                  font-size: 12px;
+                  display: block;
+                  float: left;
+                  white-space: nowrap;
+                  line-height: 24px; }
+                #search #wrap #s_bar #text #s_menu #js_wrapper dl dd i {
+                  margin: 0 5px; }
+        #search #wrap #s_bar #text #search_txt {
+          float: left;
+          width: 313px;
+          padding: 2px 10px 0 10px;
+          height: 38px;
+          line-height: 38px;
+          border: 0;
+          color: #aaa8a8; }
+      #search #wrap #s_bar #search_btn {
+        width: 40px;
+        height: 40px;
+        background: red;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        background: url(../img/btn.png) no-repeat; }
+    #search #wrap #bg_sp {
+      background: url(../img/codeznq.png) no-repeat;
+      width: 229px;
+      height: 106px;
+      position: absolute;
+      top: 0;
+      right: 0; }
+    #search #wrap #i_sp {
+      background: url(../img/icon.png) no-repeat; }
+
+/*!
+    nav导航
+*/
+#nav {
+  background: #3a3f4a;
+  height: 54px;
+  color: #acb1bb;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.08); }
+  #nav .middle {
+    width: 1190px;
+    margin: 0 auto;
+    height: 54px;
+    position: relative; }
+    #nav .middle .all_game {
+      width: 190px;
+      position: relative;
+      float: left; }
+      #nav .middle .all_game #show_game {
+        color: #acb1bb;
+        font: 16px/32px 'Microsoft Yahei','黑体';
+        display: block;
+        height: 41px;
+        padding-top: 10px;
+        border-bottom: 3px solid #434447;
+        position: relative; }
+        #nav .middle .all_game #show_game p {
+          text-align: center; }
+      #nav .middle .all_game .box {
+        height: 384px;
+        width: 190px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: left;
+        background-color: #f55656; }
+        #nav .middle .all_game .box .top {
+          text-align: left;
+          height: 54px;
+          line-height: 54px; }
+          #nav .middle .all_game .box .top .i_sp {
+            margin-top: 14px;
+            float: left;
+            width: 25px;
+            height: 25px;
+            margin: 15px 10px 0 22px;
+            background-position: 6px -178px; }
+        #nav .middle .all_game .box .i_game {
+          background: url(../img/icon.png) no-repeat; }
+        #nav .middle .all_game .box .bot {
+          width: 189px;
+          height: 64px;
+          font: 16px/64px 'Microsoft Yahei','黑体';
+          background: #f55656;
+          color: #fff;
+          border: 1px solid #f55656;
+          border-bottom: 1px solid #ee4545;
+          border-right: 0;
+          box-shadow: 2px 0 0 rgba(0, 0, 0, 0.08); }
+          #nav .middle .all_game .box .bot dt {
+            width: 189px;
+            height: 64px;
+            line-height: 54px;
+            font: 16px/64px 'Microsoft Yahei','黑体';
+            background: #f55656;
+            color: #fff;
+            border: 1px solid #f55656;
+            border-bottom: 1px solid #ee4545;
+            border-right: 0;
+            position: relative;
+            cursor: pointer;
+            box-shadow: 2px 0 0 rgba(0, 0, 0, 0.08); }
+            #nav .middle .all_game .box .bot dt .s_sp {
+              float: left;
+              width: 25px;
+              height: 25px;
+              margin: 21px 10px 0 22px;
+              background: url(../img/icon.png) no-repeat; }
+            #nav .middle .all_game .box .bot dt .i_mobilegame {
+              background-position: -148px -178px; }
+            #nav .middle .all_game .box .bot dt .i_rpggame {
+              background-position: -28px -178px; }
+            #nav .middle .all_game .box .bot dt .i_tournament {
+              background-position: -60px -178px; }
+            #nav .middle .all_game .box .bot dt .i_leisure {
+              background-position: -88px -178px; }
+            #nav .middle .all_game .box .bot dt .i_webgame {
+              background-position: -119px -178px; }
+            #nav .middle .all_game .box .bot dt .i_sp {
+              float: left;
+              margin: 21px 10px 0 0;
+              display: block;
+              width: 8px;
+              height: 11px;
+              background-position: -178px -178px;
+              position: absolute;
+              top: 6px;
+              right: 10px;
+              overflow: hidden; }
+            #nav .middle .all_game .box .bot dt i {
+              background: url(../img/icon.png) no-repeat; }
+          #nav .middle .all_game .box .bot dd {
+            display: none; }
+          #nav .middle .all_game .box .bot .active {
+            position: absolute;
+            top: 54px;
+            left: 190px;
+            display: block;
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            border-left: 0;
+            padding: 6px 0 7px 0;
+            overflow: hidden;
+            z-index: 2; }
+            #nav .middle .all_game .box .bot .active .inner {
+              background: url(../img/nav_box.png) repeat-y -8px 0;
+              height: 315px; }
+              #nav .middle .all_game .box .bot .active .inner .dev {
+                float: left; }
+                #nav .middle .all_game .box .bot .active .inner .dev a {
+                  display: block;
+                  width: 95px;
+                  height: 35px;
+                  font: 14px/35px 'Microsoft Yahei','黑体';
+                  padding: 0 15px;
+                  overflow: hidden;
+                  text-overflow: ellipsis;
+                  white-space: nowrap; }
+                #nav .middle .all_game .box .bot .active .inner .dev a:hover {
+                  color: red; }
+          #nav .middle .all_game .box .bot .col_3 {
+            width: 377px;
+            height: 315px; }
+          #nav .middle .all_game .box .bot .col_2 {
+            width: 251px;
+            height: 315px; }
+          #nav .middle .all_game .box .bot .clo_1 {
+            width: 125px;
+            height: 315px; }
+    #nav .middle .nav_btn {
+      width: 760px;
+      float: left;
+      height: 54px; }
+      #nav .middle .nav_btn li {
+        z-index: 10;
+        line-height: 54px;
+        float: left;
+        text-align: center;
+        width: 126px;
+        top: 0; }
+        #nav .middle .nav_btn li a {
+          color: white; }
+      #nav .middle .nav_btn .bot div {
+        display: none;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        z-index: 1000;
+        position: relative; }
+        #nav .middle .nav_btn .bot div a {
+          display: block;
+          padding-top: 0;
+          font-size: 14px;
+          border: none;
+          color: #525f7a;
+          line-height: 41px; }
+        #nav .middle .nav_btn .bot div a:hover {
+          color: red; }
+    #nav .middle #nav_box {
+      width: 230px;
+      float: right;
+      position: relative;
+      z-index: 20;
+      color: #333;
+      height: 43px;
+      padding: 7px 0 4px 0; }
+      #nav .middle #nav_box .goods_car {
+        position: absolute;
+        background-color: red;
+        right: 0;
+        height: 43px;
+        line-height: 43px;
+        width: 230px;
+        font-size: 16px;
+        color: white; }
+        #nav .middle #nav_box .goods_car #cartNum {
+          float: right;
+          width: 60px;
+          border-left: 1px solid #e04040;
+          font-style: normal;
+          font-weight: 800;
+          text-align: center;
+          font-size: 18px; }
+        #nav .middle #nav_box .goods_car .i_sp {
+          float: left;
+          width: 20px;
+          height: 16px;
+          background-position: -60px -20px;
+          margin: 14px 8px 0 42px; }
+      #nav .middle #nav_box .i_sp {
+        background: url(../img/icon.png) no-repeat; }
+    #nav .middle .cart_box {
+      position: absolute;
+      width: 590px;
+      padding: 2px 2px 0 2px;
+      border-bottom: 0;
+      background: #fff;
+      right: 0;
+      top: 49px;
+      display: none;
+      max-height: 421px;
+      overflow-y: auto; }
+      #nav .middle .cart_box table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0; }
+        #nav .middle .cart_box table thead tr td {
+          font-size: 12px;
+          width: 118px;
+          background: #f7f7f7;
+          height: 34px;
+          text-align: left;
+          padding: 0 15px; }
+        #nav .middle .cart_box table tbody {
+          border-bottom: 1px solid #e8e8e8; }
+          #nav .middle .cart_box table tbody td {
+            text-align: center;
+            line-height: 40px;
+            padding: 15px 15px 0 15px;
+            color: #f74a4a; }
+
+/* pic-wrap */
+#pic_wrap {
+  width: 1190px;
+  margin: 0 auto;
+  background-color: white;
+  height: 330px;
+  margin-bottom: 20px; }
+  #pic_wrap #pic {
+    width: 770px;
+    height: 330px;
+    overflow: hidden;
+    margin-left: 190px;
+    float: left;
+    display: inline;
+    position: relative; }
+    #pic_wrap #pic .slide_pic {
+      width: 4620px;
+      height: 330px;
+      position: absolute;
+      top: 0; }
+      #pic_wrap #pic .slide_pic .pic_dev {
+        float: left;
+        position: relative;
+        width: 770px;
+        height: 330px; }
+        #pic_wrap #pic .slide_pic .pic_dev a s {
+          display: block;
+          width: 770px;
+          height: 40px;
+          background: #000;
+          opacity: 0.6;
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+        #pic_wrap #pic .slide_pic .pic_dev p {
+          position: absolute;
+          width: 750px;
+          padding: 0 10px;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+          bottom: 0;
+          left: 0; }
+    #pic_wrap #pic .dot_txt {
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      text-align: right; }
+      #pic_wrap #pic .dot_txt a {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        overflow: hidden;
+        background: #fff;
+        margin-left: 6px; }
+      #pic_wrap #pic .dot_txt .active {
+        background: gray; }
+  #pic_wrap #pic_fr {
+    background: #fff;
+    width: 230px;
+    float: right; }
+    #pic_wrap #pic_fr #person {
+      height: 205px;
+      width: 230px; }
+      #pic_wrap #pic_fr #person #per_load {
+        margin: 0 5px;
+        padding: 15px 10px;
+        padding-right: 0;
+        height: 56px;
+        overflow: hidden;
+        border-bottom: 1px solid gray; }
+        #pic_wrap #pic_fr #person #per_load .per_pic {
+          margin-top: 3px;
+          float: left; }
+          #pic_wrap #pic_fr #person #per_load .per_pic img {
+            display: block;
+            width: 46px;
+            height: 46px;
+            -webkit-border-radius: 23px; }
+        #pic_wrap #pic_fr #person #per_load .per_data {
+          margin-left: 55px;
+          line-height: 18px;
+          font-size: 12px; }
+      #pic_wrap #pic_fr #person #per_games {
+        padding: 15px 10px;
+        padding-right: 0; }
+        #pic_wrap #pic_fr #person #per_games h5 {
+          font-weight: 800;
+          line-height: 20px;
+          padding-bottom: 2px; }
+        #pic_wrap #pic_fr #person #per_games li {
+          float: left;
+          width: 50px;
+          margin: 5px 20px 0 0;
+          text-align: center; }
+          #pic_wrap #pic_fr #person #per_games li a {
+            color: #3a3f4a;
+            text-decoration: none;
+            outline: none; }
+            #pic_wrap #pic_fr #person #per_games li a img {
+              display: block;
+              width: 50px;
+              height: 50px; }
+            #pic_wrap #pic_fr #person #per_games li a p {
+              display: block;
+              line-height: 20px;
+              height: 20px;
+              overflow: hidden; }
+    #pic_wrap #pic_fr #notice_list {
+      height: 100px;
+      padding: 7px 0 10px 10px;
+      margin: 0 5px;
+      width: 210px;
+      overflow: hidden; }
+      #pic_wrap #pic_fr #notice_list .clearfix h5 {
+        font-weight: 800;
+        line-height: 20px;
+        padding-bottom: 2px;
+        float: left; }
+      #pic_wrap #pic_fr #notice_list .clearfix a {
+        float: right;
+        width: 45px;
+        color: #666;
+        cursor: pointer;
+        height: 22px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 14px; }
+      #pic_wrap #pic_fr #notice_list .list_list li {
+        line-height: 22px;
+        height: 22px;
+        overflow: hidden;
+        float: left;
+        font-size: 12px; }
+        #pic_wrap #pic_fr #notice_list .list_list li a {
+          color: #666;
+          float: left;
+          width: 160px;
+          height: 22px;
+          overflow: hidden;
+          text-overflow: ellipsis; }
+        #pic_wrap #pic_fr #notice_list .list_list li p {
+          float: right;
+          height: 22px;
+          width: 40px;
+          font-style: normal;
+          color: #999;
+          text-align: left;
+          line-height: 22px; }
+
+/* hot-sale */
+.hot_sale {
+  width: 1190px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+
+.hotsale {
+  height: 324px; }
+  .hotsale #hotrec {
+    overflow: hidden;
+    width: 950px;
+    height: 324px;
+    float: left;
+    background-color: #acb1bb; }
+    .hotsale #hotrec .comm_tt {
+      height: 24px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .hotsale #hotrec .comm_tt .i_time {
+        float: left;
+        margin: 0 3px;
+        background: url(../img/icon.png) no-repeat;
+        width: 26px;
+        height: 24px; }
+      .hotsale #hotrec .comm_tt span {
+        font: 18px/24px 'Microsoft Yahei';
+        line-height: 24px; }
+      .hotsale #hotrec .comm_tt .i_sp {
+        background-position: -30px -73px; }
+    .hotsale #hotrec #hot_wrapper {
+      width: 960px;
+      height: 290px;
+      background-color: white; }
+      .hotsale #hotrec #hot_wrapper dl {
+        float: left;
+        padding: 22px 30px;
+        line-height: 22px;
+        width: 256px;
+        height: 100px;
+        border-right: 1px solid #f3f4f6;
+        border-bottom: 1px solid #f3f4f6;
+        position: relative; }
+        .hotsale #hotrec #hot_wrapper dl dt {
+          float: left;
+          width: 80px;
+          height: 83px; }
+          .hotsale #hotrec #hot_wrapper dl dt img {
+            width: 80px;
+            height: 67px;
+            margin-top: 10px; }
+        .hotsale #hotrec #hot_wrapper dl dd {
+          font-size: 14px;
+          margin-left: 94px;
+          line-height: 22px; }
+          .hotsale #hotrec #hot_wrapper dl dd a {
+            display: block;
+            width: 65px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            color: white;
+            background-color: red;
+            margin-top: 10px; }
+  .hotsale #surprise {
+    width: 230px;
+    height: 324px;
+    float: right;
+    background-color: white; }
+    .hotsale #surprise dl {
+      width: 190px;
+      height: 280px;
+      margin: 0 auto;
+      padding-top: 10px;
+      line-height: 22px;
+      position: relative; }
+      .hotsale #surprise dl dt a img {
+        display: block;
+        width: 190px;
+        height: 162px;
+        margin-bottom: 5px; }
+      .hotsale #surprise dl dd {
+        height: 22px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 22px;
+        font-size: 14px;
+        margin: 10px 0; }
+      .hotsale #surprise dl .details {
+        text-align: center;
+        font-size: 14px;
+        line-height: 26px;
+        margin-top: 7px;
+        overflow: hidden;
+        display: block;
+        background-color: red;
+        border-bottom: 2px solid #e43333; }
+      .hotsale #surprise dl .dd4 {
+        position: absolute;
+        top: 5px;
+        left: -10px;
+        width: 24px;
+        height: 69px;
+        background-position: -60px -160px;
+        color: #fff;
+        line-height: 15px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 14px;
+        padding-top: 2px;
+        overflow: hidden; }
+      .hotsale #surprise dl .dd4 {
+        background: url(../img/dj.png) no-repeat; }
+
+/* 猜你喜欢 */
+.like {
+  height: 250px; }
+  .like #favorite {
+    width: 950px;
+    height: 250px;
+    float: left;
+    background-color: white; }
+    .like #favorite .comm_ttt {
+      height: 34px;
+      line-height: 34px;
+      margin-bottom: 10px;
+      background-color: #acb1bb; }
+      .like #favorite .comm_ttt #i_sp {
+        float: left;
+        margin-top: 5px;
+        margin-right: 3px;
+        background-position: 0 -73px;
+        width: 26px;
+        height: 24px; }
+      .like #favorite .comm_ttt .fl {
+        background: url(../img/icon.png) no-repeat; }
+      .like #favorite .comm_ttt b {
+        font-size: 18px; }
+      .like #favorite .comm_ttt span {
+        margin: 9px 12px;
+        font-size: 14px;
+        line-height: 14px; }
+    .like #favorite .comm_bg {
+      width: 950px;
+      height: 200px; }
+      .like #favorite .comm_bg dl {
+        border-right: 1px solid #acb1bb;
+        width: 132px;
+        height: 160px;
+        padding: 20px 28px;
+        border-left: 1px solid #f3f4f6;
+        float: left; }
+        .like #favorite .comm_bg dl dt a img {
+          display: block;
+          width: 90px;
+          height: 75px;
+          margin: 0px auto; }
+        .like #favorite .comm_bg dl dd {
+          margin-top: 10px;
+          font-size: 14px;
+          text-align: center; }
+          .like #favorite .comm_bg dl dd p {
+            color: red;
+            height: 40px;
+            overflow: hidden; }
+            .like #favorite .comm_bg dl dd p a {
+              color: #3a3f4a;
+              text-decoration: none;
+              outline: none;
+              text-align: center; }
+              .like #favorite .comm_bg dl dd p a b {
+                text-align: center;
+                display: block; }
+  .like #sign {
+    position: relative;
+    width: 230px;
+    float: right;
+    height: 250px;
+    background-color: #acb1bb; }
+    .like #sign .sign_tt {
+      margin-top: 5px;
+      height: 24px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .like #sign .sign_tt .sign_tt_s {
+        float: left;
+        margin-right: 3px;
+        background: url(../img/icon.png) no-repeat;
+        width: 26px;
+        height: 24px; }
+      .like #sign .sign_tt .i_sp {
+        background-position: 0 -73px; }
+      .like #sign .sign_tt em {
+        font-size: 18px; }
+    .like #sign .sign_bg {
+      padding: 17px;
+      height: 176px;
+      background: #fff; }
+      .like #sign .sign_bg .btn_sign {
+        width: 190px;
+        height: 77px;
+        border-bottom-width: 6px;
+        font-size: 18px;
+        line-height: 77px;
+        text-align: left;
+        margin-top: 15px;
+        display: inline-block;
+        background: #f74a4a;
+        color: white;
+        border-bottom: 2px solid #e43333;
+        cursor: pointer; }
+        .like #sign .sign_bg .btn_sign .btn_a {
+          float: left;
+          width: 27px;
+          height: 26px;
+          background: url(../img/icon.png) no-repeat;
+          margin: 27px 10px 0 38px;
+          display: inline; }
+        .like #sign .sign_bg .btn_sign .i_sp {
+          background-position: -140px -137px; }
+      .like #sign .sign_bg .tac {
+        padding: 10px 0;
+        margin-bottom: 10px;
+        text-align: center; }
+        .like #sign .sign_bg .tac p {
+          font-size: 12px;
+          margin-bottom: 5px; }
+          .like #sign .sign_bg .tac p a {
+            color: #3a3f4a; }
+    .like #sign .app_codebox {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 230px;
+      height: 216px;
+      z-index: 20;
+      background: #fff;
+      display: block; }
+      .like #sign .app_codebox img {
+        margin: 10px 24px 0;
+        width: 180px;
+        height: 180px; }
+      .like #sign .app_codebox p {
+        text-align: center;
+        font-size: 13px;
+        color: #333; }
+
+/* 精彩活动 */
+.activity {
+  height: 360px;
+  background-color: #acb1bb; }
+  .activity .act_tt {
+    height: 20px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-top: 4px; }
+    .activity .act_tt a {
+      float: right;
+      font-size: 14px; }
+    .activity .act_tt .act_s {
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../img/icon.png) no-repeat; }
+    .activity .act_tt .i_sp {
+      background-position: -90px -73px; }
+  .activity .act_list {
+    height: 326px;
+    background: #fff; }
+    .activity .act_list ul {
+      height: 100%;
+      padding: 10px 0 0 10px; }
+      .activity .act_list ul li {
+        float: left;
+        width: 383px;
+        margin-right: 10px;
+        height: 158px;
+        overflow: hidden;
+        display: inline;
+        /* a img{
+                    display: block;
+                    width: 383px;
+                    height: 148px;
+                } */ }
+
+/* LOL */
+.lol {
+  height: 338px; }
+  .lol .act_tt {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+    .lol .act_tt a {
+      float: right;
+      font-size: 14px; }
+    .lol .act_tt .act_s {
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../img/icon.png) no-repeat; }
+    .lol .act_tt .i_sp {
+      background-position: -120px -73px; }
+    .lol .act_tt em {
+      font-size: 18px; }
+  .lol .act_list {
+    height: 304px;
+    background: #fff; }
+    .lol .act_list .fl {
+      float: left; }
+    .lol .act_list .pic {
+      width: 240px;
+      height: 304px;
+      overflow: hidden; }
+    .lol .act_list .list {
+      width: 764px;
+      height: 304px;
+      overflow: hidden; }
+      .lol .act_list .list .list_top {
+        width: 764px;
+        height: 204px; }
+        .lol .act_list .list .list_top li {
+          height: 204px;
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 190px;
+          overflow: hidden; }
+          .lol .act_list .list .list_top li a {
+            display: block;
+            width: 148px;
+            height: 163px;
+            padding: 20px;
+            border-bottom: 1px solid #f3f4f6;
+            line-height: 20px; }
+            .lol .act_list .list .list_top li a .name {
+              padding-bottom: 3px; }
+              .lol .act_list .list .list_top li a .name b {
+                font-size: 16px;
+                font-weight: 800; }
+            .lol .act_list .list .list_top li a .red {
+              font-size: 14px;
+              color: #f74a4a; }
+            .lol .act_list .list .list_top li a span {
+              font-size: 14px;
+              display: block;
+              height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .lol .act_list .list .list_top li a img {
+              width: 90px;
+              height: 75px;
+              display: block;
+              margin-top: 10px; }
+      .lol .act_list .list .list_bottom {
+        width: 764px;
+        height: 100px; }
+        .lol .act_list .list .list_bottom li {
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 170px;
+          height: 60px;
+          padding: 20px 0px 20px 20px;
+          line-height: 20px; }
+          .lol .act_list .list .list_bottom li a img {
+            float: left;
+            width: 60px;
+            height: 50px; }
+          .lol .act_list .list .list_bottom li .div_b {
+            margin-left: 70px;
+            line-height: 20px; }
+            .lol .act_list .list .list_bottom li .div_b p {
+              font-size: 12px;
+              height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .lol .act_list .list .list_bottom li .div_b .red {
+              color: red; }
+    .lol .act_list .rank {
+      height: 304px;
+      width: 186px; }
+      .lol .act_list .rank .top {
+        padding-top: 20px;
+        height: 62px;
+        border-top: 0; }
+        .lol .act_list .rank .top a img {
+          width: 60px;
+          height: 50px; }
+      .lol .act_list .rank dd {
+        height: 43px;
+        border-top: 1px solid #f3f4f6;
+        padding: 5px 5px 5px 0;
+        border-bottom: 1px solid #f3f4f6; }
+        .lol .act_list .rank dd .i_sp {
+          display: block;
+          height: 53px;
+          line-height: 16px;
+          float: left;
+          width: 20px;
+          height: 24px;
+          background: url(../img/icon.png) no-repeat;
+          font-style: normal;
+          color: #fff;
+          text-align: center; }
+        .lol .act_list .rank dd .ico {
+          background-position: -20px -300px; }
+        .lol .act_list .rank dd .txt {
+          float: left;
+          width: 88px;
+          margin: 0 0 0 10px;
+          display: inline; }
+          .lol .act_list .rank dd .txt p {
+            font-size: 14px;
+            white-space: nowrap;
+            width: 88px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .lol .act_list .rank dd .txt .red {
+            color: red; }
+        .lol .act_list .rank dd a img {
+          float: right;
+          width: 40px;
+          height: 34px;
+          margin-top: 1px; }
+      .lol .act_list .rank dd:last-child {
+        border: 0; }
+
+/* CF */
+.cf {
+  height: 338px; }
+  .cf .act_tt {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+    .cf .act_tt a {
+      float: right;
+      font-size: 14px; }
+    .cf .act_tt .act_s {
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../img/icon.png) no-repeat; }
+    .cf .act_tt .i_sp {
+      background-position: -150px -73px; }
+    .cf .act_tt em {
+      font-size: 18px; }
+  .cf .act_list {
+    height: 304px;
+    background: #fff; }
+    .cf .act_list .fl {
+      float: left; }
+    .cf .act_list .pic {
+      width: 240px;
+      height: 304px;
+      overflow: hidden; }
+    .cf .act_list .list {
+      width: 764px;
+      height: 304px;
+      overflow: hidden; }
+      .cf .act_list .list .list_top {
+        width: 764px;
+        height: 204px; }
+        .cf .act_list .list .list_top li {
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 190px;
+          overflow: hidden; }
+          .cf .act_list .list .list_top li a {
+            display: block;
+            width: 148px;
+            height: 163px;
+            padding: 20px;
+            border-bottom: 1px solid #f3f4f6;
+            line-height: 20px; }
+            .cf .act_list .list .list_top li a .name {
+              padding-bottom: 3px; }
+              .cf .act_list .list .list_top li a .name b {
+                font-size: 16px;
+                font-weight: 800; }
+            .cf .act_list .list .list_top li a .red {
+              font-size: 14px;
+              color: #f74a4a; }
+            .cf .act_list .list .list_top li a span {
+              font-size: 14px;
+              display: block;
+              height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .cf .act_list .list .list_top li a img {
+              width: 90px;
+              height: 75px;
+              display: block;
+              margin-top: 10px; }
+      .cf .act_list .list .list_bottom li {
+        float: left;
+        border-right: 1px solid #f3f4f6;
+        width: 170px;
+        height: 60px;
+        padding: 20px 0px 20px 20px;
+        line-height: 20px; }
+        .cf .act_list .list .list_bottom li a img {
+          float: left;
+          width: 60px;
+          height: 50px; }
+        .cf .act_list .list .list_bottom li .div_b {
+          margin-left: 70px;
+          line-height: 20px; }
+          .cf .act_list .list .list_bottom li .div_b p {
+            font-size: 12px;
+            height: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .cf .act_list .list .list_bottom li .div_b .red {
+            color: red; }
+    .cf .act_list .rank {
+      height: 304px;
+      width: 186px; }
+      .cf .act_list .rank .top {
+        padding-top: 20px;
+        height: 62px;
+        border-top: 0; }
+        .cf .act_list .rank .top a img {
+          width: 60px;
+          height: 50px; }
+      .cf .act_list .rank dd {
+        height: 43px;
+        border-top: 1px solid #f3f4f6;
+        padding: 5px 5px 5px 0;
+        border-bottom: 1px solid #f3f4f6; }
+        .cf .act_list .rank dd .i_sp {
+          display: block;
+          height: 53px;
+          line-height: 16px;
+          float: left;
+          width: 20px;
+          height: 24px;
+          background: url(../img/icon.png) no-repeat;
+          font-style: normal;
+          color: #fff;
+          text-align: center; }
+        .cf .act_list .rank dd .ico {
+          background-position: -20px -300px; }
+        .cf .act_list .rank dd .txt {
+          float: left;
+          width: 88px;
+          margin: 0 0 0 10px;
+          display: inline; }
+          .cf .act_list .rank dd .txt p {
+            font-size: 14px;
+            white-space: nowrap;
+            width: 88px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .cf .act_list .rank dd .txt .red {
+            color: red; }
+        .cf .act_list .rank dd a img {
+          float: right;
+          width: 40px;
+          height: 34px;
+          margin-top: 1px; }
+      .cf .act_list .rank dd:last-child {
+        border: 0; }
+
+/* 剑灵 */
+.bladeSoul {
+  height: 338px; }
+  .bladeSoul .act_tt {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+    .bladeSoul .act_tt a {
+      float: right;
+      font-size: 14px; }
+    .bladeSoul .act_tt .act_s {
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../img/icon.png) no-repeat; }
+    .bladeSoul .act_tt .i_sp {
+      background-position: -180px -73px; }
+    .bladeSoul .act_tt em {
+      font-size: 18px; }
+  .bladeSoul .act_list {
+    height: 304px;
+    background: #fff; }
+    .bladeSoul .act_list .fl {
+      float: left; }
+    .bladeSoul .act_list .pic {
+      width: 240px;
+      height: 304px;
+      overflow: hidden; }
+    .bladeSoul .act_list .list {
+      width: 764px;
+      height: 304px;
+      overflow: hidden; }
+      .bladeSoul .act_list .list .list_top {
+        width: 764px;
+        height: 204px; }
+        .bladeSoul .act_list .list .list_top li {
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 190px;
+          overflow: hidden; }
+          .bladeSoul .act_list .list .list_top li a {
+            display: block;
+            width: 148px;
+            height: 163px;
+            padding: 20px;
+            border-bottom: 1px solid #f3f4f6;
+            line-height: 20px; }
+            .bladeSoul .act_list .list .list_top li a .name {
+              padding-bottom: 3px; }
+              .bladeSoul .act_list .list .list_top li a .name b {
+                font-size: 16px;
+                font-weight: 800; }
+            .bladeSoul .act_list .list .list_top li a .red {
+              font-size: 14px;
+              color: #f74a4a; }
+            .bladeSoul .act_list .list .list_top li a span {
+              font-size: 14px;
+              display: block;
+              height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .bladeSoul .act_list .list .list_top li a img {
+              width: 90px;
+              height: 75px;
+              display: block;
+              margin-top: 10px; }
+      .bladeSoul .act_list .list .list_bottom li {
+        float: left;
+        border-right: 1px solid #f3f4f6;
+        width: 170px;
+        height: 60px;
+        padding: 20px 0px 20px 20px;
+        line-height: 20px; }
+        .bladeSoul .act_list .list .list_bottom li a img {
+          float: left;
+          width: 60px;
+          height: 50px; }
+        .bladeSoul .act_list .list .list_bottom li .div_b {
+          margin-left: 70px;
+          line-height: 20px; }
+          .bladeSoul .act_list .list .list_bottom li .div_b p {
+            font-size: 12px;
+            height: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .bladeSoul .act_list .list .list_bottom li .div_b .red {
+            color: red; }
+    .bladeSoul .act_list .rank {
+      height: 304px;
+      width: 186px; }
+      .bladeSoul .act_list .rank .top {
+        padding-top: 20px;
+        height: 62px;
+        border-top: 0; }
+        .bladeSoul .act_list .rank .top a img {
+          width: 60px;
+          height: 50px; }
+      .bladeSoul .act_list .rank dd {
+        height: 43px;
+        border-top: 1px solid #f3f4f6;
+        padding: 5px 5px 5px 0;
+        border-bottom: 1px solid #f3f4f6; }
+        .bladeSoul .act_list .rank dd .i_sp {
+          display: block;
+          height: 53px;
+          line-height: 16px;
+          float: left;
+          width: 20px;
+          height: 24px;
+          background: url(../img/icon.png) no-repeat;
+          font-style: normal;
+          color: #fff;
+          text-align: center; }
+        .bladeSoul .act_list .rank dd .ico {
+          background-position: -20px -300px; }
+        .bladeSoul .act_list .rank dd .txt {
+          float: left;
+          width: 88px;
+          margin: 0 0 0 10px;
+          display: inline; }
+          .bladeSoul .act_list .rank dd .txt p {
+            font-size: 14px;
+            white-space: nowrap;
+            width: 88px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .bladeSoul .act_list .rank dd .txt .red {
+            color: red; }
+        .bladeSoul .act_list .rank dd a img {
+          float: right;
+          width: 40px;
+          height: 34px;
+          margin-top: 1px; }
+      .bladeSoul .act_list .rank dd:last-child {
+        border: 0; }
+
+/* 御龙在天专区 */
+.dragon {
+  height: 338px; }
+  .dragon .act_tt {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+    .dragon .act_tt a {
+      float: right;
+      font-size: 14px; }
+    .dragon .act_tt .act_s {
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../img/icon.png) no-repeat; }
+    .dragon .act_tt .i_sp {
+      background-position: -120px -103px; }
+    .dragon .act_tt em {
+      font-size: 18px; }
+  .dragon .act_list {
+    height: 304px;
+    background: #fff; }
+    .dragon .act_list .fl {
+      float: left; }
+    .dragon .act_list .pic {
+      width: 240px;
+      height: 304px;
+      overflow: hidden; }
+    .dragon .act_list .list {
+      width: 764px;
+      height: 304px;
+      overflow: hidden; }
+      .dragon .act_list .list .list_top {
+        width: 764px;
+        height: 204px; }
+        .dragon .act_list .list .list_top li {
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 190px;
+          overflow: hidden; }
+          .dragon .act_list .list .list_top li a {
+            display: block;
+            width: 148px;
+            height: 163px;
+            padding: 20px;
+            border-bottom: 1px solid #f3f4f6;
+            line-height: 20px; }
+            .dragon .act_list .list .list_top li a .name {
+              padding-bottom: 3px; }
+              .dragon .act_list .list .list_top li a .name b {
+                font-size: 16px;
+                font-weight: 800; }
+            .dragon .act_list .list .list_top li a .red {
+              font-size: 14px;
+              color: #f74a4a; }
+            .dragon .act_list .list .list_top li a span {
+              font-size: 14px;
+              display: block;
+              height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .dragon .act_list .list .list_top li a img {
+              width: 90px;
+              height: 75px;
+              display: block;
+              margin-top: 10px; }
+      .dragon .act_list .list .list_bottom li {
+        float: left;
+        border-right: 1px solid #f3f4f6;
+        width: 170px;
+        height: 60px;
+        padding: 20px 0px 20px 20px;
+        line-height: 20px; }
+        .dragon .act_list .list .list_bottom li a img {
+          float: left;
+          width: 60px;
+          height: 50px; }
+        .dragon .act_list .list .list_bottom li .div_b {
+          margin-left: 70px;
+          line-height: 20px; }
+          .dragon .act_list .list .list_bottom li .div_b p {
+            font-size: 12px;
+            height: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .dragon .act_list .list .list_bottom li .div_b .red {
+            color: red; }
+    .dragon .act_list .rank {
+      height: 304px;
+      width: 186px; }
+      .dragon .act_list .rank .top {
+        padding-top: 20px;
+        height: 62px;
+        border-top: 0; }
+        .dragon .act_list .rank .top a img {
+          width: 60px;
+          height: 50px; }
+      .dragon .act_list .rank dd {
+        height: 43px;
+        border-top: 1px solid #f3f4f6;
+        padding: 5px 5px 5px 0;
+        border-bottom: 1px solid #f3f4f6; }
+        .dragon .act_list .rank dd .i_sp {
+          display: block;
+          height: 53px;
+          line-height: 16px;
+          float: left;
+          width: 20px;
+          height: 24px;
+          background: url(../img/icon.png) no-repeat;
+          font-style: normal;
+          color: #fff;
+          text-align: center; }
+        .dragon .act_list .rank dd .ico {
+          background-position: -20px -300px; }
+        .dragon .act_list .rank dd .txt {
+          float: left;
+          width: 88px;
+          margin: 0 0 0 10px;
+          display: inline; }
+          .dragon .act_list .rank dd .txt p {
+            font-size: 14px;
+            white-space: nowrap;
+            width: 88px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+          .dragon .act_list .rank dd .txt .red {
+            color: red; }
+        .dragon .act_list .rank dd a img {
+          float: right;
+          width: 40px;
+          height: 34px;
+          margin-top: 1px; }
+      .dragon .act_list .rank dd:last-child {
+        border: 0; }
+
+/* adv */
+.adv {
+  height: 146px;
+  width: 1200px; }
+  .adv li {
+    float: left;
+    margin-left: 8px; }
+    .adv li a img {
+      display: block;
+      width: 390px;
+      height: 146px; }
+
+/* 底部帮助 */
+.foot_area {
+  background-color: #3b3f4a;
+  margin-top: 40px;
+  height: 356px; }
+  .foot_area .bx_qa {
+    height: 150px;
+    padding: 25px 0 33px 28px;
+    width: 1252px; }
+    .foot_area .bx_qa .bx_qa_t1 {
+      width: 226px;
+      float: left;
+      border-right: 1px solid #444853;
+      height: 150px; }
+      .foot_area .bx_qa .bx_qa_t1 h4 {
+        font: normal 16px/32px "Microsoft YaHei";
+        color: #acb1bb; }
+        .foot_area .bx_qa .bx_qa_t1 h4 .i_sp {
+          float: left;
+          margin: 0 10px 0 24px;
+          width: 32px;
+          height: 32px;
+          background: url(../img/icon.png) no-repeat; }
+        .foot_area .bx_qa .bx_qa_t1 h4 .i_new {
+          background-position: 0 -136px; }
+      .foot_area .bx_qa .bx_qa_t1 .bx_qa_ul {
+        margin-left: 65px; }
+        .foot_area .bx_qa .bx_qa_t1 .bx_qa_ul li {
+          width: 100px;
+          height: 24px;
+          line-height: 24px;
+          display: block;
+          overflow: hidden; }
+          .foot_area .bx_qa .bx_qa_t1 .bx_qa_ul li a {
+            color: #acb1bb;
+            font-size: 12px; }
+    .foot_area .bx_qa .bx_qa_code {
+      border-right: 0;
+      width: 298px; }
+      .foot_area .bx_qa .bx_qa_code .bx_qa_ul {
+        margin-left: 12px; }
+        .foot_area .bx_qa .bx_qa_code .bx_qa_ul li {
+          float: left;
+          margin-left: 40px;
+          width: 100px;
+          height: 136px; }
+          .foot_area .bx_qa .bx_qa_code .bx_qa_ul li div {
+            margin-bottom: 18px;
+            width: 100px;
+            height: 100px; }
+            .foot_area .bx_qa .bx_qa_code .bx_qa_ul li div p {
+              text-align: center;
+              font-size: 16px;
+              color: #a4abb4;
+              line-height: 18px;
+              margin-top: 8px; }
+  .foot_area .foot_wrap {
+    margin: 0 auto; }
+    .foot_area .foot_wrap .footer_ied {
+      height: 58px;
+      background: #3b3f4a;
+      padding: 30px 0 60px 0;
+      text-align: center;
+      line-height: 19px;
+      font-size: 12px;
+      border-top: 1px solid #444853;
+      color: #81858f; }
+      .foot_area .foot_wrap .footer_ied .wrap_ied {
+        text-align: center;
+        line-height: 19px;
+        font-size: 12px; }
+        .foot_area .foot_wrap .footer_ied .wrap_ied a {
+          color: #81858f; }
+
+/* 侧边 */
+.fixednav {
+  height: 108px;
+  width: 70px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 2000;
+  margin: 0 20px 215px 0; }
+  .fixednav .returnTop {
+    display: block;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    width: 68px;
+    padding: 7px 0;
+    text-align: center;
+    margin-top: 3px;
+    color: gray;
+    font-size: 14px; }
+    .fixednav .returnTop .i_sp {
+      display: block;
+      width: 30px;
+      height: 30px;
+      background: url(../img/bg.png) no-repeat;
+      margin: 0 auto; }
+    .fixednav .returnTop .fix {
+      background-position: -122px -153px; }

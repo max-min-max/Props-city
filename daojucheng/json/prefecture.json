@@ -1,0 +1,16 @@
+{
+    "cf" : [
+            {"url" : "../img/1-1.jpg",
+            "title" : "[英雄联盟]",
+            "explain" : "涤魂圣枪 赛娜",
+            "market" : "QB价：",
+            "recommend" : "热卖推荐",
+            "price" : "20.00 QB"},
+            {"url" : "../img/1-1.jpg",
+                "title" : "[英雄联盟]",
+                "explain" : "涤魂圣枪 赛娜",
+                "market" : "QB价：",
+                "recommend" : "热卖推荐",
+                "price" : "20.00 QB"}
+        ]
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/buttons.css">
+        <title>Document</title>
+        <script src = "js/ajax.js"></script>
+        <script src = "js/require.js" defer async = "true" data-main= "js/register.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class = "panel panel-primary" id = "register" style=" width: 400px; margin : 100px auto;">
+                <div class="panel-heading">
+                    注册
+                </div>
+                <div class="panel-body">
+                    <div class = "form-group">
+                        <label for="username">用户名：</label>
+                        <input type="text" class="form-control input-lg" name = "username" id= "input1" placeholder="用户名">
+                    </div>
+                    <div class = "form-group">
+                        <label for="password">密码：</label>
+                        <input type="text" class="form-control input-lg" name = "password" id= "input2"  placeholder="密码：">
+                    </div>
+                    <div class = "form-group">
+                        <label for="password">确认密码：</label>
+                        <input type="text" class="form-control input-lg" name = "password" id= "input3" placeholder="确认密码：">
+                    </div>
+                    <div class="alert  alert-danger" role="alert" style="padding: 2px; text-align: center;display: none;" id = "alert_info">
+                        警告信息
+                    </div>
+                    <a href="login.html">马上登陆</a>
+                    <button class = "button button-3d button-primary button-rounded btn btn-primary pull-right" id = "btn1" >注册</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
